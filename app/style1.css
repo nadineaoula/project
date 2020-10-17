@@ -1,0 +1,51 @@
+/* CSS files add styling rules to your content */
+
+body {
+background-color: #E1D9DA;
+font-family: 'Fjalla One';
+
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #666699 ;
+}
+
+
+a:hover {
+    background-color: gold;
+      
+}
+
+
+a:link {
+  color: red;
+}
+
+.center{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  
+  color: #660033;
+}
+
+.send2 {
+   
+  background-color: #e7e7e7; 
+  color: black;
+  border: 1 px;
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#title {
+color:red;
+  font-size : large;
+ }

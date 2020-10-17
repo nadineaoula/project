@@ -1,0 +1,71 @@
+h1 {
+  
+  font-family: '  Sacramento';
+  
+  color: #373fff;
+}
+body {
+
+background-color:#F5F5F5;
+font-family: '  Jura';
+
+  margin: 2em;
+  
+  
+  }
+
+
+
+#title {
+ border-width:4px;
+ border-style:dotted;
+ border-color:lightblue;
+ }
+
+
+
+
+
+.send {
+   
+  background-color: #e7e7e7; 
+  color: black;
+  border: 1 px;
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+td{
+  
+  background-color:lightgrey;
+}
+
+.one{
+  font-size:large;
+}
+
+.two{
+  color:green;
+}
+
+#three{
+  font-size: large;
+}
+
+.new{
+  color:red;
+  font-size: medium;
+}
+
+.new2{
+  color:blue;
+ 
+}
+
+form{
+  color:maroon;
+}
