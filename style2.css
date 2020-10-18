@@ -1,0 +1,68 @@
+body {
+background-color: #CAC9CA;
+
+font-family: 'Sansita Swashed';
+
+  margin: 2em;
+  }
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+
+a:hover {
+    background-color: gold;
+  
+      
+}
+
+a:active {
+  background-color: red;
+  
+}
+
+a:visited{
+  color: green;
+}
+
+a:link {
+  color: red;
+}
+
+
+#titre{
+  
+  font-family: 'cursive';
+  color :#800000;
+  
+}
+
+#image{
+  
+  border-radius: 50%;
+}
+
+
+.image2{
+  
+  border-radius: 50%;
+}
+
+table{
+  
+ 
+  background-color: #52527a;
+
+  color : white;
+}
+
+
+#up{
+  align:center;
+  
+ width: 280px;
+ height: 280px;
+ 
+}
