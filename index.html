@@ -1,181 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <title> CleanedBed </title>
 
-          <meta charset="utf-8">
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-          <link rel="shortcut icon" type="image/png" href="https://cdn.glitch.com/7d67d5c4-8fbb-4538-ba98-4815e60c7d33%2Ficons8-dormir-dans-le-lit-48.png?v=1604080921370  " />
-            <title>CleanedBed</title>
- 
-    
+        <!-- import the webpage's stylesheet -->
         <link rel="stylesheet" href="/style.css">
-        <link rel="stylesheet" href="/skeleton.css">
-        <link rel="stylesheet" href="/normalize.css">
- 
-   
- 
+
+        <!-- import the webpage's javascript file -->
+        <script src="/script.js"></script>
+        <link rel="shortcut icon" type="image/png" href="https://cdn.glitch.com/7d67d5c4-8fbb-4538-ba98-4815e60c7d33%2Ficons8-dormir-dans-le-lit-48.png?v=1604080921370" />
+
+    
+       
   </head>  
   <body>
+ 
+        <h1>A solution for yours beds ! </h1>
 
-    
+        <h4> 
+           <div class="titre">
+                 Mattress cleaning<br>
+            </div>
 
-
-           <div class="encadre2">
-                <h1> 
-                  Order our services <br>
-                  Reserve your place in advance<br>
-                  We will confirm your reservation by e-mail.
-               </h1>
-          </div>
-    
-    
-
-  
-          <table align="center"  cellpadding="2">
-               <tr> 
-                   <td>
-                           <div class="color">
-                                  OUR PRICES
-                                     <ul>
-                                          <h1>
-                                             Clean your mattress
-                                           </h1>       
-                                          <li> 
-                                             Collect a spare mattress during the treatment period of your mattress. 
-                                             <h4>
-                                                 100 euros
-                                             </h4>
-                                          </li>
-                                          <h1>
-                                              Recycle your mattress
-                                          </h1> 
-                                         <li>
-                                           Preserving the environment does not cost you anything and gain a new mattress. 
-                                           <h4>
-                                             0 euros
-                                           </h4> 
-                                         </li>
-                                    </ul>   
-                           </div>
-                     
-                          <div class="encadre">
-                                   <form id="form">
-                                          <fieldset>
-                                                       <legend>Order</legend> 
-                                            
-                                                       <label for="name">Enter your name: </label>
-                                                       <input type="text" name="name" id="name"  placeholder="Your name" required/>
-
-                                                      <label for="name" type="email"  >Enter your email: </label>
-                                                      <input type="email"   id="mail" placeholder="Your email" required/>
-                                            
-                                                     
-                                                      <label for="name">I want : </label>
-                                                      <input type="radio"  id="choix1" value=" A consultation " class="radio">   A consultation 
-                                                      <input type="radio"   id="choix2" value="A cost estimate " class="radio">   A cost estimate 
-                  
-
-                                                      <label>Service:</label>
-
-                                                      <select id="liste" >
-                                                        <option  id="choix3"  value="Mattress cleaning">Mattress cleaning</option>
-                                                        <option  id="choix4" value="Mattress recycling"> Mattress recycling</option>
-                                                      </select>
+            <div id="but">
+                   We collect your mattresses and in exchange, during the maintenance time, we provide you with a replacement mattress.
+            </div> 
 
 
 
-                                                      <label for="precisions">Please specify the number of mattresses you would like to clean or / and recycle  :</label>
-                                                       <textarea name="precisions" id="specification" cols="40" rows="4"></textarea>
-                                                                    
-                                                       <input type="submit" value="Submit" id="submit" class="send">
-                                            
-                                           </fieldset>
-                                </form>  
+            Free yourself from an ecological weight by allowing an increase in the life of the mattresses and also by allowing them a second life.
 
-                      </div>
-               </td>                       
-            </tr>
-    </table>
-  
-
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-  
-   <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
-  
-    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
-    <script>
-    
-              var config = {
-                apiKey: "AIzaSyBPati650OmfQtK9roKFLbgKMOpl6OWQbY",
-                authDomain: "testdata-fd715.firebaseapp.com",
-                databaseURL: "https://testdata-fd715.firebaseio.com",
-                projectId: "testdata-fd715",
-                storageBucket: "testdata-fd715.appspot.com",
-                messagingSenderId: "886421730048",
-                appId: "1:886421730048:web:075845d7faccc14f6bb9e5"
-              };
-              firebase.initializeApp(config);
-              var db = firebase.database();
-
-              var nameRef = db.ref( "name" );
-              let a = document.querySelector("#name");
-
-              const btn = document.querySelector("#submit");
-
-              var Ref = db.ref( "name" );
-
-              document.getElementById("form").addEventListener("submit",submitForm);
-              function submitForm(e){
-                 e.preventDefault();
-                 console.log(123);
+            <br>
+               <table>
+                       <tr>
+                          <th> Avoid the health risk </th>
+                          <th>Limit costs by entrusting us with your mattresses in order to find them in good condition again.</th>       
+                       </tr>
 
 
-                  function getInputVal(id){
-                    return document.getElementById(id).value;
-                  }
+                       <tr>
+                          <td>Free yourself from an ecological weight by allowing an increase in the life of the mattresses and also by allowing them a second life.</td>
+                       </tr>
 
-                  var name = getInputVal('name');
-                  var mail = getInputVal('mail');
-                  var specification = getInputVal('specification');
 
-                  console.log(name);
-                  console.log(mail);
+                       <br>
+                       <br>
 
-                  var radio;
-                  if (document.getElementById('choix1').checked) {
-                   radio = document.getElementById('choix1').value;
-                  }else{
-                     radio = document.getElementById('choix2').value;
-                  }
+                          
+                        <div class="titre">
+                             Mattress recycling<br>
+                        </div>
 
-                  var liste, texte;
-                  liste = document.getElementById("liste");
-                  service = liste.options[liste.selectedIndex].text;  
+                        <br> At contrary to our competitor   <a href="https://www.h2mat.com/"  id ="test"> H2mat </a>  we do recycling !
 
-                  console.log(radio);
-                  console.log(service);
-                  console.log(specification);
 
-                  function savemessage(name, mail,radio,specification){
-                      var newref = Ref.push();
-                         newref.set({
-                          name:name,
-                          mail:mail,
-                          radio:radio, 
-                          service:service,
-                          specification:specification
-                       });
-                  }
-                 savemessage(name, mail,radio,specification);
-              }
-  </script>
+                        <p>
+                          A mattress takes over 100 years to degrade if you leave it in the wild! So, if your mattress is no longer in good condition, its ticking is stained, or if its springs are tired, don't leave it in nature!
+                        </p>  
 
+                        <p>
+                          The same is true for bulky items since most of the time these services do not properly recycle the deposited waste, which sometimes all ends up in the incinerator.
+                        </p>
+                      
+                        <br>
+                        Your mattress may, depending on the community, be recycled. Indeed, it will only be if the recycling center has a dumpster dedicated to used furniture. Otherwise, it will unfortunately end up burned!
+                        Avoid this option and let us recover your mattresses to give them a second life.
+
+
+                
+                       <tr>
+                        <th> Limit costs by entrusting us with your mattresses in order to find them in good condition again.</th>
+                      </tr>
+              </table>
+
+              <br> 
+              We're ready to meet your needs and make it easy for you all at minimal cost!
+             <a href="https://painted-gifted-measure.glitch.me/" class="button">Go see our About page</a>
+
+      </h4>
 
   </body>
 </html>
-
-
