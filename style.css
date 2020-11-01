@@ -1,128 +1,44 @@
-.centrer2{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%); 
-  -webkit-transform: translate(-50%, -50%); 
-  width: 300px;
-  height: 150px;
+.color{
+  background-color:white;
   opacity:0.8;
-  color:black;
-  background-color: #0057F3;
-  color: black; 
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 40px 40px;
-  cursor: pointer; 
+}
+.send{
+  opacity:0.8;
 }
 
-.white{
-  color:white;
-}
-
-.titre{
-  color:green;
-  font-family :didot;
-  font-size: xx-large;
-}
-
-#but{
-  font-family:  arial, sans-serif;
-}
-
-#menu {
-  opacity :0.8;
-  color:black;
-  width :1150px;
-  font-size: x-large;
-  color:black;
-  height : 150px;
-}
-
-#blocnews {
-	width:1150px;
-	height:240px;
-	background-color:#FF6699;
-  float :right;
-}
-
-table{
-  color :white;
-}
-
-body { 
+body {
   font-family: helvetica, arial, sans-serif;
-  margin: 2em; 
-  width : 200px;
-  height : 500px;
-  background: white url("https://cdn.glitch.com/7d67d5c4-8fbb-4538-ba98-4815e60c7d33%2Flit.jpg?v=1604079319320") no-repeat left;
-  background-color: rgba(1, 0, 255, 0.2);
+  margin: 2em;
+  background-image: url("https://cdn.glitch.com/a300b3ad-e5aa-421f-9ebd-7a79e2aa73b2%2Flit.jpg?v=1604147970455")  ;
   background-size: cover; 
+  background-repeat: no-repeat, repeat;
 }
 
 h1 {
   font-style: italic;
   color: black;
-  border: solid 3px lightgrey;
+}
+
+.encadre{ 
+  color: black;
+  border: solid 5px black;
   padding: 5px;
   border-radius: 5px;
-  background-color: lightgrey;     
-  opacity :0.5;
-  width:450px;
-  height:100px;
+  background-color: lightgrey; 
+  opacity:0.7;
+  width:1015px;
+  height:505px;
 }
 
-h2{
-  background-color: #840A00;
-  opacity :0.8;
-  color:black;
-  width :1150px;
-  height : 440px;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
+.encadre2{
+ color: black;
+ padding: 5px;
+ border-radius: 5px;
+ background-color: lightgrey; 
+ opacity:0.7;
+ width:580px;
+ height:153px;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.container>* {
-    margin: 0 10px;
-    flex: 1 1 200px;
-}
-
-.button {     
-         border: 1px blue solid;
-         color: white;
-         padding: 18px 18px;
-         text-align: center;
-         text-decoration: none;
-         display: inline-block;
-         font-size: 14px;
-         margin: 4px 2px;
-         cursor: pointer;
-}
-
-.see{
-    margin-left: auto;
-    margin-right: auto;
-    width : 400px;
-    background-color :#578EC3;
-    opacity:0.8;
-  
-}
-
- .soustitre{
-    margin-left: auto;
-    margin-right: auto;
-    width : 400px;
-  opacity:0.8;
-text-decoration: underline green;
-}
-
- 
 
