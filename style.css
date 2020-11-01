@@ -1,6 +1,28 @@
+.centrer2{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); 
+  -webkit-transform: translate(-50%, -50%); 
+  width: 300px;
+  height: 150px;
+  opacity:0.8;
+  color:black;
+  background-color: #0057F3;
+  color: black; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 40px 40px;
+  cursor: pointer; 
+}
+
 .white{
   color:white;
 }
+
 .titre{
   color:green;
   font-family :didot;
@@ -14,12 +36,11 @@
 #menu {
   opacity :0.8;
   color:black;
-   width :1150px;
-   font-size: x-large;
+  width :1150px;
+  font-size: x-large;
   color:black;
   height : 150px;
 }
-
 
 #blocnews {
 	width:1150px;
@@ -28,24 +49,18 @@
   float :right;
 }
 
-
 table{
   color :white;
 }
 
-
-body {
+body { 
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
-   
+  margin: 2em; 
   width : 200px;
   height : 500px;
- 
- background: white url("https://cdn.glitch.com/7d67d5c4-8fbb-4538-ba98-4815e60c7d33%2Flit.jpg?v=1604079319320") no-repeat left ;
- /* background-color:#840A00;*/
- background-color: rgba(1, 0, 255, 0.2);
- background-size: cover;
-
+  background: white url("https://cdn.glitch.com/7d67d5c4-8fbb-4538-ba98-4815e60c7d33%2Flit.jpg?v=1604079319320") no-repeat left;
+  background-color: rgba(1, 0, 255, 0.2);
+  background-size: cover; 
 }
 
 h1 {
@@ -54,18 +69,18 @@ h1 {
   border: solid 3px lightgrey;
   padding: 5px;
   border-radius: 5px;
-  background-color: lightgrey; 
+  background-color: lightgrey;     
   opacity :0.5;
   width:450px;
-  height:80px;
+  height:100px;
 }
 
-h4{
+h2{
   background-color: #840A00;
   opacity :0.8;
   color:black;
-  width :1400px;
-  height : 530px;
+  width :1150px;
+  height : 440px;
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
@@ -80,8 +95,7 @@ h4{
     flex: 1 1 200px;
 }
 
-.button {
-        
+.button {     
          border: 1px blue solid;
          color: white;
          padding: 18px 18px;
@@ -92,4 +106,23 @@ h4{
          margin: 4px 2px;
          cursor: pointer;
 }
+
+.see{
+    margin-left: auto;
+    margin-right: auto;
+    width : 400px;
+    background-color :#578EC3;
+    opacity:0.8;
+  
+}
+
+ .soustitre{
+    margin-left: auto;
+    margin-right: auto;
+    width : 400px;
+  opacity:0.8;
+text-decoration: underline green;
+}
+
+ 
 
